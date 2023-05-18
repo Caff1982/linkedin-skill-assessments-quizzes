@@ -104,55 +104,44 @@ my_list
 #### Q11. What is the correct way to write a doctest?
 
 - [ ] A
-
 ```python
 def sum(a, b):
     """
     sum(4, 3)
     7
-
     sum(-4, 5)
     1
     """
     return a + b
 ```
-
 - [x] B
-
 ```python
 def sum(a, b):
     """
     >>> sum(4, 3)
     7
-
     >>> sum(-4, 5)
     1
     """
     return a + b
 ```
-
 - [ ] C
-
 ```python
 def sum(a, b):
     """
     # >>> sum(4, 3)
     # 7
-
     # >>> sum(-4, 5)
     # 1
     """
     return a + b
 ```
-
 - [ ] D
-
 ```python
 def sum(a, b):
     ###
     >>> sum(4, 3)
     7
-
     >>> sum(-4, 5)
     1
     ###
@@ -321,24 +310,18 @@ prices = [1.50, 2.25, 0.89]
 ```
 
 - [ ] A
-
 ```python
 output = []
-
 fruit_tuple_0 = (first[0], quantities[0], price[0])
 output.append(fruit_tuple)
-
 fruit_tuple_1 = (first[1], quantities[1], price[1])
 output.append(fruit_tuple)
-
 fruit_tuple_2 = (first[2], quantities[2], price[2])
 output.append(fruit_tuple)
-
 return output
 ```
 
 - [x] B
-
 ```python
 i = 0
 output = []
@@ -351,11 +334,9 @@ return output
 ```
 
 - [ ] C
-
 ```python
 groceries = zip(fruits, quantities, prices)
 return groceries
-
 >>> [
 ('Apples', 5, 1.50),
 ('Oranges', 3, 2.25),
@@ -364,7 +345,6 @@ return groceries
 ```
 
 - [ ] D
-
 ```python
 i = 0
 output = []
@@ -396,31 +376,25 @@ else:
 
 #### Q30. What is the correct syntax for calling an instance method on a class named Game?
 
-_(Answer format may vary. Game and roll (or dice_roll) should each be called with no parameters.)_
-
 - [x] A
-
 ```python
 >>> dice = Game()
 >>> dice.roll()
 ```
 
 - [ ] B
-
 ```python
 >>> dice = Game(self)
 >>> dice.roll(self)
 ```
 
 - [ ] C
-
 ```python
 >>> dice = Game()
 >>> dice.roll(self)
 ```
 
 - [ ] D
-
 ```python
 >>> dice = Game(self)
 >>> dice.roll()
@@ -467,7 +441,6 @@ print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 ```
 
 - [x] A
-
 ```python
 a 1
 a 2
@@ -481,13 +454,11 @@ c 3
 ```
 
 - [ ] B
-
 ```python
 ['a', 'b', 'c'], [1, 2, 3]
 ```
 
 - [ ] C
-
 ```python
 aaa
 bbb
@@ -498,7 +469,6 @@ ccc
 ```
 
 - [ ] D
-
 ```python
 a 1 2 3
 b 1 2 3
@@ -508,7 +478,6 @@ c 1 2 3
 #### Q36. Pick correct representation of doctest for function in Python.
 
 - [ ] :
-
 ```python
 def sum(a, b):
     # a = 1
@@ -519,7 +488,6 @@ def sum(a, b):
 ```
 
 - [ ] :
-
 ```python
 def sum(a, b):
     """
@@ -532,7 +500,6 @@ def sum(a, b):
 ```
 
 - [x] :
-
 ```python
 def sum(a, b):
     """
@@ -546,7 +513,6 @@ def sum(a, b):
 ```
 
 - [ ] :
-
 ```python
 def sum(a, b):
     '''
@@ -582,7 +548,6 @@ from collections import namedtuple
 >>> point = Point(100, 200)
 >>> point
     Point(x=100, y=200)
-
 # Which let you use both unpacking and iteration to access
 >>> x, y = point
 >>> print(f'({x}, {y})')
@@ -676,7 +641,7 @@ t1 = test()
 - [ ] `self` means that no other arguments are required to be passed into the method.
 - [x] `self` refers to the instance whose method was called.
 
-**Explanation:** - Try running the example of the Q42 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.
+**Explanation:** - Try running Q42 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.
 
 #### Q47. What statement about the class methods is true?
 
@@ -729,28 +694,24 @@ t1 = test()
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
 - [ ] :
-
 ```python
 class __init__(self):
     pass
 ```
 
 - [ ] :
-
 ```python
 def __init__():
     pass
 ```
 
 - [ ] :
-
 ```python
 class __init__():
     pass
 ```
 
 - [x] :
-
 ```python
 def __init__(self):
     pass
@@ -782,7 +743,6 @@ def __init__(self):
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
 - [ ] :
-
 ```python
 def tax(my_float):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
@@ -790,21 +750,18 @@ def tax(my_float):
 ```
 
 - [ ] :
-
 ```python
 def tx(amt):
     '''Gets the tax on an amount.'''
 ```
 
 - [ ] :
-
 ```python
 def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
 - [x] :
-
 ```python
 def calculate_sales_tax(subtotal):
     pass
@@ -817,7 +774,7 @@ def calculate_sales_tax(subtotal):
 - [x] You would get a RuntimeError: maximum recursion depth exceeded.
 - [ ] The function using recursion would return None.
 
-[explanation](https://www.python-course.eu/python3_recursive_functions.php#Definition-of-Recursion)
+[Reference](https://www.python-course.eu/python3_recursive_functions.php#Definition-of-Recursion)
 
 #### Q59. What is the runtime complexity of searching for an item in a binary search tree?
 
@@ -826,7 +783,7 @@ def calculate_sales_tax(subtotal):
 - [x] The runtime for searching in a binary search tree is generally O(h), where h is the height of the tree.
 - [ ] The runtime for searching in a binary search tree is O(n) because every node in the tree must be visited.
 
-[explanation](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
+[Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
 #### Q60. Why would you use `mixin`?
 
@@ -835,7 +792,7 @@ def calculate_sales_tax(subtotal):
 - [ ] You use a `mixin` to make sure that a class's attributes and methods don't interfere with global variables and functions.
 - [x] If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.
 
-[explanation](https://www.youtube.com/watch?v=zVFLBfqV-q0)
+[Reference](https://www.youtube.com/watch?v=zVFLBfqV-q0)
 
 #### Q61. What is the runtime complexity of adding an item to a stack and removing an item from a stack?
 
@@ -867,7 +824,7 @@ def calculate_sales_tax(subtotal):
 - [ ] There is no benefit to using the `with` keyword for opening a file in Python.
 - [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
 
-[explanation](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+[Reference](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 
 #### Q65. Why would you use a virtual environment?
 
@@ -883,7 +840,7 @@ def calculate_sales_tax(subtotal):
 - [ ] `python3 <_filename_> rundoctests`
 - [ ] `python3 doctest`
 
-[tutorial video](https://www.youtube.com/watch?v=P8qm0VAbbww&t=180s)
+[Reference](https://www.youtube.com/watch?v=P8qm0VAbbww&t=180s)
 
 #### Q67. What is a lambda function ?
 
@@ -894,9 +851,7 @@ def calculate_sales_tax(subtotal):
 
 [Reference](https://www.guru99.com/python-lambda-function.html)
 
-**Explanation:**
-
-> The lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introducted in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.
+**Explanation:** The lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introducted in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.
 
 #### Q68. What is the primary difference between lists and tuples?
 
@@ -922,28 +877,24 @@ def calculate_sales_tax(subtotal):
 #### Q71. What is the correct syntax of creating an instance method?
 
 - [ ] :
-
 ```python
 def get_next_card():
   # method body goes here
 ```
 
 - [x] :
-
 ```python
 def get_next_card(self):
   # method body goes here
 ```
 
 - [ ] :
-
 ```python
 def self.get_next_card():
   # method body goes here
 ```
 
 - [ ] :
-
 ```python
 def self.get_next_card(self):
   # method body goes here
@@ -993,10 +944,8 @@ my_list = ['kiwi', 'apple', 'banana']
 #### Q77. Which choice is the most syntactically correct example of the conditional branching?
 
 - [x] :
-
 ```python
 num_people = 5
-
 if num_people > 10:
     print("There is a lot of people in the pool.")
 elif num_people > 4:
@@ -1006,10 +955,8 @@ else:
 ```
 
 - [ ] :
-
 ```python
 num_people = 5
-
 if num_people > 10:
     print("There is a lot of people in the pool.")
 if num_people > 4:
@@ -1019,10 +966,8 @@ else:
 ```
 
 - [ ] :
-
 ```python
 num_people = 5
-
 if num_people > 10;
     print("There is a lot of people in the pool.")
 elif num_people > 4;
@@ -1032,7 +977,6 @@ else;
 ```
 
 - [ ] :
-
 ```python
 if num_people > 10;
     print("There is a lot of people in the pool.")
@@ -1075,7 +1019,6 @@ while i<6:
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
 - [ ] :
-
 ```python
 def __init__(self, attr1, attr2):
     attr1 = attr1
@@ -1083,7 +1026,6 @@ def __init__(self, attr1, attr2):
 ```
 
 - [ ] :
-
 ```python
 def __init__(attr1, attr2):
     attr1 = attr1
@@ -1091,7 +1033,6 @@ def __init__(attr1, attr2):
 ```
 
 - [x] :
-
 ```python
 def __init__(self, attr1, attr2):
     self.attr1 = attr1
@@ -1099,7 +1040,6 @@ def __init__(self, attr1, attr2):
 ```
 
 - [ ] :
-
 ```python
 def __init__(attr1, attr2):
     self.attr1 = attr1
@@ -1120,7 +1060,6 @@ def count_recursive(n=1):
 ```
 
 - [ ] :
-
 ```python
 1
 1
@@ -1131,7 +1070,6 @@ def count_recursive(n=1):
 ```
 
 - [ ] :
-
 ```python
 3
 2
@@ -1139,7 +1077,6 @@ def count_recursive(n=1):
 ```
 
 - [ ] :
-
 ```python
 3
 3
@@ -1150,7 +1087,6 @@ def count_recursive(n=1):
 ```
 
 - [x] :
-
 ```python
 1
 2
@@ -1250,15 +1186,7 @@ len(z)
 - [ ] 0
 - [ ] 3
 
-**Explanation**:
-
-```python
-y="stuff;thing;junk"
-	len(z) ==> 3
-
-y="stuff;thing;junk;"
-	len(z) ==> 4
-```
+**Explanation**: "y="stuff;thing;junk" would have length 3, but "y="stuff;thing;junk;" is length 4.
 
 #### Q93. What is the output of this code?
 
@@ -1304,26 +1232,22 @@ print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
 - [ ] :
-
 ```python
 print(2^10)
 ```
 
 - [x] :
-
 ```python
 print(2**10)
 ```
 
 - [ ] :
-
 ```python
 y = [x*2 for x in range(1,10)]
 print(y)
 ```
 
 - [ ] :
-
 ```python
 y = 1
 for i in range(1,10):
@@ -1424,11 +1348,9 @@ my_dictionary = {
 }
 ```
 
-- [x] <br>
-
+- [x] :
 ```python
 letters = []
-
 for letter in my_dictionary.values():
     letters.append(letter)
 ```
@@ -1514,7 +1436,6 @@ def be_friendly(greet = "How are you!", name):
 #### Q112. Given that NumPy is imported as `np`, which choice will return `True`?
 
 - [x] :
-
 ```python
 a = np.zeros([3,4])
 b = a.copy()
@@ -1522,7 +1443,6 @@ np.array_equal(a,b)
 ```
 
 - [ ] :
-
 ```python
 a = np.empty([3,4])
 b = np.empty([3,4])
@@ -1530,7 +1450,6 @@ np.array_equal(a,b)
 ```
 
 - [ ] :
-
 ```python
 a = np.zeros([3,4])
 b = np.zeros([4,3])
@@ -1538,7 +1457,6 @@ np.array_equal(a,b)
 ```
 
 - [ ] :
-
 ```python
 a = np.array([1, np.nan])
 np.array_equal(a,a)
@@ -1562,33 +1480,26 @@ d = np.dot(a,b)
 ```
 
 - [ ] A
-
 ```python
 c = [ a[1] * b[1], a[2] * b[2], a[3] * b[3] ]
 d = sum(c)
 ```
 
 - [ ] B
-
 ```python
 c = a[0] * b[0], a[1] * b[1], a[2] * b[2]
-
 d = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
 ```
 
 - [ ] C
-
 ```python
 c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
-
 d = sum(a) + sum(b)
 ```
 
 - [x] D
-
 ```python
 c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
-
 d = sum(c)
 ```
 
@@ -1664,7 +1575,6 @@ myFunction()
 ```
 
 - [ ] :
-
 ```python
 Hello, I am from Spain
 Hello, I am from
@@ -1672,7 +1582,6 @@ Hello, I am from
 ```
 
 - [ ] :
-
 ```python
 Hello, I am from France
 Hello, I am from France
@@ -1680,7 +1589,6 @@ Hello, I am from France
 ```
 
 - [x] :
-
 ```python
 Hello, I am from Spain
 Hello, I am from
@@ -1688,7 +1596,6 @@ Hello, I am from France
 ```
 
 - [ ] :
-
 ```python
 Hello, I am from Spain
 Hello, I am from France
@@ -1728,14 +1635,11 @@ actors = ["Downey", "Holland", "Evans"]
 - [ ] `[(x,y)] for x in characters for y in actors]`
 - [x] `zip(characters, actors)`
 - [ ]
-
   ```python
   d = {}
-
   for x in range(1, len(characters)):
       d[x] = actors[x]
   ```
-
 - [ ] `{x:y for x in characters for y in actors}`
 
 #### Q125. What will this statement return?
@@ -1955,7 +1859,6 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 #### Q147. Which snippet of code will print My name is Joffrey, son of Robert?
 
 - [ ] :
-
 ```python
 class Father():
     name = 'Robert'
@@ -1970,15 +1873,12 @@ class Person(Father):
 
 king = Person("Joffrey")
 king.introduce()
-
 ```
 
 - [x] :
-
 ```python
 class Father():
     name = 'Robert'
-
 
 class Person(Father):
     def __init__(self, name):
@@ -1988,18 +1888,14 @@ class Person(Father):
     def introduce(self):
         print("My name is", self.name, "son of", self.fathername)
 
-
 king = Person("Joffrey")
 king.introduce()
-
 ```
 
 - [ ] :
-
 ```python
 class Father():
     name = 'Robert'
-
 
 class Person(Father):
     def __init__(self, name):
@@ -2013,7 +1909,6 @@ king.introduce()
 ```
 
 - [ ] :
-
 ```python
 class Father():
     name = 'Robert'
@@ -2027,7 +1922,6 @@ class Person(Father):
 
 king = Person("Joffrey")
 king.introduce()
-
 ```
 
 **Explanation:** In the first, super does not have .name (should be self.name), The third drops Robert, and base is not defined in the 4th.
@@ -2048,28 +1942,24 @@ print(animals['d'])
 ```
 
 - [x] A
-
 ```python
       ['beetle', 'bear', 'bat']
       []
 ```
 
 - [ ] B
-
 ```python
       ['beetle', 'bear', 'bat']
       # an exception will be thrown
 ```
 
 - [ ] C
-
 ```python
       ['beetle', 'bear', 'bat']
       None
 ```
 
 - [ ] D
-
 ```python
       ['bat', 'bear', 'beetle']
       []
@@ -2104,7 +1994,6 @@ if x > 10:
 		print('B')
 else:
 	print('C')
-
 ```
 
 - [ ] C
@@ -2189,7 +2078,7 @@ else:
 
 #### Q158. What is the output of the following program ?
 
-```
+```python
 print("codescracker".endswith("er"))
 ```
 
@@ -2305,42 +2194,30 @@ execution_fn()
 **Which of the following choices are the missing arguments?**
 
 - [ ] :
-
 ```
 MISSING_ARG_1 = wrapper
-
 MISSING_ARG_2 = rval
-
 MISSING_ARG_3 = func
 ```
 
 - [x] :
-
 ```
 MISSING_ARG_1 = func
-
 MISSING_ARG_2 = rval
-
 MISSING_ARG_3 = wrapper
 ```
 
 - [ ] :
-
 ```
 MISSING_ARG_1 is empty
-
 MISSING_ARG_2 = rval
-
 MISSING_ARG_3 = wrapper
 ```
 
 - [ ] :
-
 ```
 MISSING_ARG_1 is empty
-
 MISSING_ARG_2 = rval
-
 MISSING_ARG_3 = func
 ```
 
@@ -2443,19 +2320,6 @@ employees = {
 **Explanation:** This is accessing a key in a nested dictionary inside another dictionary
 
 The command employees['alice']['salary'] = employees['charlie']['salary'] assigns the value of the 'salary' key in the dictionary of the employee 'charlie' to the 'salary' key in the dictionary of the employee 'alice'.
-It is the same thing as:
-
-```python
-employees = {
-    'alice': {'position': 'Lead Developer', 'salary': 1000},
-    'bob': {'position': 'Lead Artist', 'salary': 2000},
-    'charlie': {'position': 'cfo', 'salary': 3000}
-}
-# or:
-employees = {'alice': {'position': 'Lead Developer', 'salary': 1000},
-             'bob': {'position': 'Lead Artist', 'salary': 2000},
-             'charlie': {'position': 'cfo', 'salary': 3000}}
-```
 
 #### Q177. You are given a piece of code. Assume m and n are already defined as some positive integer value. When it completes, how many tuples will my list contain?
 
@@ -2491,3 +2355,4 @@ for i in range(m):
 - [ ] &&
 - [ ] ||
 - [x] ==
+

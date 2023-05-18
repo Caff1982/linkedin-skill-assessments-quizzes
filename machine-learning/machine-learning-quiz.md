@@ -555,8 +555,6 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] root nodes
 - [ ] deciders
 
-`// these nodes decide whether the someone decides to go to beach or not, for example if its rainy people will mostly refrain from going to beach`
-
 #### Q73. You need to quickly label thousands of images to train a model. What should you do?
 
 - [ ] Set up a cluster of machines to label the images
@@ -617,7 +615,9 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] a type of reinforcement learning where accuracy degrades over time
 - [x] a type of reinforcement learning that focuses on rewards
 
-[Reference](<https://towardsdatascience.com/a-beginners-guide-to-q-learning-c3e2a30a653c#:~:text=Q%2Dlearning%20is%20a%20model,equation(particularly%20Bellman%20equation).&text=Means%20it%20learns%20the%20value,independently%20of%20the%20agent's%20actions>) **Explanation**:Q-learning is a model-free reinforcement learning algorithm.Q-learning is a values-based learning algorithm. Value based algorithms updates the value function based on an equation(particularly Bellman equation).
+[Reference](https://towardsdatascience.com/a-beginners-guide-to-q-learning-c3e2a30a653c#:~:text=Q%2Dlearning%20is%20a%20model,equation(particularly%20Bellman%20equation).&text=Means%20it%20learns%20the%20value,independently%20of%20the%20agent's%20actions)
+
+**Explanation**: Q-learning is a model-free reinforcement learning algorithm.Q-learning is a values-based learning algorithm. Value based algorithms updates the value function based on an equation(particularly Bellman equation).
 
 #### Q81. The data in your model has low bias and low variance. How would you expect the data points to be grouped together on the diagram?
 
@@ -771,9 +771,7 @@ During training, k-means partitions observations into k clusters. During inferen
 
 At every iteration, full batch gradient descent uses the entire training set to compute a gradient. The order in which data is processed doesn't impact the gradient value.
 
-#### Q100. You've received 1,000,000 images and have split it in 96%/2%/2% between train, dev and test sets. You've trained your model, and analyzed the results. After working further on the problem, you’ve decided to correct the incorrectly labeled data on the dev set.
-
-Which of these statements do you agree with?
+#### Q100. You've received 1,000,000 images and have split it in 96%/2%/2% between train, dev and test sets. You've trained your model, and analyzed the results. After working further on the problem, you’ve decided to correct the incorrectly labeled data on the dev set. Which of these statements do you agree with?
 
 - [x] You should also correct the incorrectly labeled data in the test set, so that the dev and test sets still come from the same distribution.
 - [ ] You should correct incorrectly labeled data in the training set as well so as to avoid your training set now being even more different from your dev set.
@@ -861,7 +859,9 @@ Which of these statements do you agree with?
 - [ ] networking
 - [ ] statistical techniques
 
-**Explanation**: "Ensuring you have good data quality prior to running machine learning algorithms is a crucial step within the overall data science and machine learning workflow." [Source](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
+**Explanation**: "Ensuring you have good data quality prior to running machine learning algorithms is a crucial step within the overall data science and machine learning workflow."
+
+[Source](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
 
 #### Q112. Your organization's chief diversity officer is concerned that your engineering department lacks racial and gender diversity. You are asked to create a supervised machine learning system to help sort through hundreds of thousands of new employment applications. The human resources department insists on using internal hiring data. What are some of the dangers that you might run into?
 
@@ -870,7 +870,9 @@ Which of these statements do you agree with?
 - [ ] Machine learning systems cannot be used with this type of data.
 - [x] If the system uses internal data, then it may amplify any existing bias in hiring.
 
-**Explanation**: "If an AI is trained on a biased data set, it will naturally make biased decisions which can give calamitous results." [Source](https://www.linkedin.com/pulse/reducing-bias-ai-diversity-inclusion-shashwat-siddhant/)
+**Explanation**: "If an AI is trained on a biased data set, it will naturally make biased decisions which can give calamitous results."
+
+[Source](https://www.linkedin.com/pulse/reducing-bias-ai-diversity-inclusion-shashwat-siddhant/)
 
 #### Q113. In 2013, Google´s DeepMind project created a machine learning algorithm that could play an old-style Atari video game, Pong. The algorithm taught the machine how to play by creating a series of rewards. Each time the machine successfully returned the ball, the machine got a reward; each time the opponent missed the ball, the machine got a reward. How would you describe this type of machine learning algorithm?
 
