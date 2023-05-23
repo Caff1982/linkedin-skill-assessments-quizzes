@@ -105,8 +105,6 @@ mysql < file.sql > file.txt
 - [ ] the error output of the MySQL command
 - [x] the non-error output of the MySQL command
 
-**Note**: `check the question below for a variant.`
-
 #### Q11. What will be the difference between the output on the screen and the contents of out.txt
 
 ```bash
@@ -117,8 +115,6 @@ mysql < file.sql > out.txt
 - [x] There will be no output on the screen as it's being redirected to out.txt.
 - [ ] The output on the screen will be identical to out.txt plus line numbers.
 - [ ] The out.txt file will hold STDERR and STDOUT will go to the screen.
-
-**Note**: `check the question above for a variant.`
 
 #### Q12. How does the SUID or setuid affect executable commands?
 
@@ -234,7 +230,7 @@ E. bash demo.sh
 - [ ] `find *.html`
 - [x] `find . -name \*.html -print`
 
-`The second seems well, but will expand the \* if there is any .html file on your working directory.`
+**Explanation**: The second seems well, but will expand the \* if there is any .html file on your working directory.
 
 #### Q24. What would be in out.txt?
 
@@ -320,15 +316,6 @@ echo ${!fname}
 
 #### Q31. What will be the output of this script?
 
-![question](images/Q30/question.png?raw=png)
-
-- [ ] `A` ![A](images/Q30/A.png?raw=png)
-- [ ] `B` ![B](images/Q30/B.png?raw=png)
-- [ ] `C` ![C](images/Q30/D.png?raw=png)
-- [x] `D` ![D](images/Q30/C.png?raw=png)
-
-Here's a text based version of Q.30:
-
 ```bash
 ll
 -rw-r--r-- 1 frankmolev staff 374   Jun 3 19:30 .
@@ -338,11 +325,9 @@ ll
 ..
 
 ll | sed -e 's,file,text,g'
-
 ```
 
 - [ ] A
-
 ```
   -rw-r--r-- 1 frankmolev staff 374   Jun 3 19:30 .
   -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
@@ -352,7 +337,6 @@ ll | sed -e 's,file,text,g'
 ```
 
 - [ ] B
-
 ```
   -rw-r--r-- 1 frankmolev staff 374   Jun 3 19:30 .
   -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
@@ -362,14 +346,12 @@ ll | sed -e 's,file,text,g'
 ```
 
 - [ ] C
-
 ```
   -rw-r--r-- 1 frankmolev staff 68    Jun 3 19:30 .
   -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
 ```
 
 - [x] D
-
 ```
 -rw-r--r-- 1 frankmolev staff 374     Jun 3 19:30 .
 -rw-r--r-- 1 frankmolev staff 1666    Jun 3 19:30 ..
@@ -512,7 +494,7 @@ fi
 - [ ] One or more characters that only includes integers
 - [x] Due to a syntax error it is impossible to get the script to print "Is numeric"
 
-The regex must not be quoted to work properly.
+**Explanation**: The regex must not be quoted to work properly.
 
 #### Q43. How would you find the last copy command run in your history?
 
@@ -572,14 +554,12 @@ $ ls -l @(ba*(na)|a+(p)le)
 ```
 
 - [x] a
-
 ```bash
 apple
 banana
 ```
 
 - [ ] b
-
 ```bash
 apple
 banana
@@ -590,7 +570,6 @@ strawberry
 ```
 
 - [ ] c
-
 ```bash
 apple
 banana
@@ -600,7 +579,6 @@ pineapple
 ```
 
 - [ ] d
-
 ```bash
 apple
 banana
@@ -698,7 +676,6 @@ rm !(*gif|*jpg)`
 ```
 
 - [ ] a
-
 ```bash
 archive.tar
 image1.gif
@@ -710,7 +687,6 @@ textfile2.txt
 ```
 
 - [ ] b
-
 ```bash
 archive.tar
 textfile1.txt
@@ -720,7 +696,6 @@ textfile2.txt
 - [ ] `c : All of this files will be deleted`
 
 - [x] d:
-
 ```bash
 image1.gif
 image1.jpg
@@ -772,9 +747,7 @@ w
 - [ ] It displays information about the users currently on the another machine.
 - [ ] None of these
 
-#### Q61. Which sed options should you use to change the second-to-last instance of variable to rock so it would read:
-
-A constant is a variable that is a rock that isn't variable
+#### Q61. Which sed options should you use to change the second-to-last instance of variable to rock so it would read: "A constant is a variable that is a rock that isn't variable"
 
 ```bash
 var="A constant is a variable that is a variable that isn't variable"
@@ -874,14 +847,12 @@ $ ls -l file[^abc]*.txt
 ```
 
 - [x] A
-
 ```bash
 file1.txt
 file10.txt
 ```
 
 - [ ] B
-
 ```bash
 file10.txt
 file1.txt
@@ -892,13 +863,11 @@ filec.txt
 ```
 
 - [ ] C
-
 ```bash
 fileabc.txt filea.txt fileb.txt filec.txt
 ```
 
 - [ ] D
-
 ```bash
 filea.txt
 fileb.txt
@@ -906,7 +875,8 @@ filec.txt
 ```
 
 [Reference](https://tldp.org/LDP/abs/html/globbingref.html)
-`The caret (`^`) symbol here negates matches inside the bracket.`
+
+**Explanation**: `The caret (`^`) symbol here negates matches inside the bracket.`
 
 #### Q73. What is the output of this command sequence?
 
@@ -921,7 +891,6 @@ EOF
 ```
 
 - [ ] A
-
 ```bash
 This is line 1.
 This is line 2.
@@ -929,13 +898,11 @@ This is line 3.
 ```
 
 - [ ] B
-
 ```bash
 ------------------------This is line 1.This is line 2.This is line 3.------------------------
 ```
 
 - [x] C
-
 ```bash
 ------------------------
    This is line 1.
@@ -945,7 +912,6 @@ This is line 3.
 ```
 
 - [ ] D
-
 ```bash
 ------------------------
 This is line 1.
@@ -971,8 +937,7 @@ exec 3>&-
 - [x] 123456789
 - [ ] the number 5, which is written to the file using echo
 
-1. [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
-2. [What is the difference between "echo" and "echo -n"?](https://stackoverflow.com/questions/30761986/what-is-the-difference-between-echo-and-echo-n)
+[Reference][I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
 
 #### Q75. Which variable contains the process ID (PID) of the script while it's running?
 
@@ -993,13 +958,10 @@ echo "$VAR"
 
 - [ ] `<pre> This is... a string of characters</pre>`
 - [ ] `<pre> This is...a string of characters</pre>`
-- [ ] `<pre>This is... a string of characters</pre>`
+- [x] `<pre>This is... a string of characters</pre>`
 - [ ] `<pre>This is...a string of characters</pre>`
 
-References:
-
-1. [What is the meaning of the ${0##...} syntax with variable, braces and hash character in bash?](https://stackoverflow.com/questions/2059794/what-is-the-meaning-of-the-0-syntax-with-variable-braces-and-hash-chara)
-2. [What does expanding a variable as "${var%%r\*}" mean in bash?](https://stackoverflow.com/questions/41859601/what-does-expanding-a-variable-as-varr-mean-in-bash)
+[Reference](https://stackoverflow.com/questions/2059794/)
 
 #### Q77. Which operator tells the shell to run a given command in the background?
 
@@ -1054,5 +1016,6 @@ cat > notes -
 
 - [ ] sed -E -n '/^(.)(.)\3\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.).\2\1$/p'
-- [ ] sed -E -n '/^(.)(.)(.)\2\1$/p'
+- [x] sed -E -n '/^(.)(.)(.)\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
+

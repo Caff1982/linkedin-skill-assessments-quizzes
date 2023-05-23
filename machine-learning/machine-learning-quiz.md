@@ -196,7 +196,7 @@
 - [ ] a linear regression
 - [x] a K-means cluster
 
-Note: there are centres of clusters (C0, C1, C2).
+**Explanation**: Note: there are centres of clusters (C0, C1, C2).
 
 #### Q27. Random forest is modified and improved version of which earlier technique?
 
@@ -276,7 +276,8 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Principal Component Analysis (PCA)
 
 **Explanation:** Logistic regression is far better than linear regression at binary classification since it biases the result toward one extreme or the other. K-means clustering can be used for classification but is not as accurate in most scenarios.
-[Source:](https://www.kaggle.com/minc33/k-means-clustering-vs-logistic-regression)
+
+[Reference:](https://www.kaggle.com/minc33/k-means-clustering-vs-logistic-regression)
 
 #### Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs
 
@@ -286,7 +287,8 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] algorithms
 
 **Explanation**: This one is pretty straight forward and a fundamental concept.
-[Source:](https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab)
+
+[Reference:](https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab)
 
 #### Q39. Why is it important for machine learning algorithms to have access to high-quality data?
 
@@ -317,7 +319,8 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Human experts can create classes of drugs to help guide discovery.
 
 **Explanation**: This one is similar to an example talked about in the Stanford Machine Learning course.
-[Source:](https://www.coursera.org/learn/machine-learning/home/welcome)
+
+[Reference:](https://www.coursera.org/learn/machine-learning/home/welcome)
 
 #### Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches?
 
@@ -485,9 +488,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] You are overfitting the model to the data.
 - [ ] Your machine is creating inaccurate clusters.
 
-**Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.
-
-`that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.`
+**Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario. That answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.`
 
 #### Q65. (Mostly) whenever we see kernel visualizations online (or some other reference) we are actually seeing:
 
@@ -534,8 +535,6 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q71. What is the correct option?
 
-![image](images/machine-learning_Q67.png?raw=png)
-
 | no.    | Red              | Blue             | Green            |
 | ------ | ---------------- | ---------------- | ---------------- |
 | **1.** | Validation error | Training error   | Test error       |
@@ -547,6 +546,8 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] 2
 - [ ] 3
 - [x] 4
+
+![image](images/machine-learning_Q67.png?raw=png)
 
 #### Q72. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?
 
@@ -571,7 +572,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] high bias, high variance
 - [x] low bias, low variance
 
-  `// since the data is accurately classified and is neither overfitting or underfitting the dataset`
+**Explanation**: Since the data is accurately classified and is neither overfitting or underfitting the dataset
 
 #### Q75. You need to select a machine learning process to run a distributed neural network on a mobile application. Which would you choose?
 
@@ -748,8 +749,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Support-vector machines
 - [x] K- means
 
-Explanation:
-During training, k-means partitions observations into k clusters. During inference, it assigns a given data point to the nearest cluster by distance. k-means is unsupervised, because it doesn't require labeled data to be trained.
+**Explanation**: During training, k-means partitions observations into k clusters. During inference, it assigns a given data point to the nearest cluster by distance. k-means is unsupervised, because it doesn't require labeled data to be trained.
 
 #### Q98. Averaging the output of multiple decision trees helps to::
 
@@ -861,7 +861,7 @@ At every iteration, full batch gradient descent uses the entire training set to 
 
 **Explanation**: "Ensuring you have good data quality prior to running machine learning algorithms is a crucial step within the overall data science and machine learning workflow."
 
-[Source](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
+[Reference](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
 
 #### Q112. Your organization's chief diversity officer is concerned that your engineering department lacks racial and gender diversity. You are asked to create a supervised machine learning system to help sort through hundreds of thousands of new employment applications. The human resources department insists on using internal hiring data. What are some of the dangers that you might run into?
 
@@ -872,7 +872,7 @@ At every iteration, full batch gradient descent uses the entire training set to 
 
 **Explanation**: "If an AI is trained on a biased data set, it will naturally make biased decisions which can give calamitous results."
 
-[Source](https://www.linkedin.com/pulse/reducing-bias-ai-diversity-inclusion-shashwat-siddhant/)
+[Reference](https://www.linkedin.com/pulse/reducing-bias-ai-diversity-inclusion-shashwat-siddhant/)
 
 #### Q113. In 2013, Google´s DeepMind project created a machine learning algorithm that could play an old-style Atari video game, Pong. The algorithm taught the machine how to play by creating a series of rewards. Each time the machine successfully returned the ball, the machine got a reward; each time the opponent missed the ball, the machine got a reward. How would you describe this type of machine learning algorithm?
 
@@ -881,7 +881,9 @@ At every iteration, full batch gradient descent uses the entire training set to 
 - [x] reinforcement learning.
 - [ ] supervised learning.
 
-**Explanation**: Reinforcement learning is the branch of machine learning where the algorithm interacts with the enviroment and get rewards or penalizations [Source](https://www.deepmind.com/publications/playing-atari-with-deep-reinforcement-learning)
+**Explanation**: Reinforcement learning is the branch of machine learning where the algorithm interacts with the enviroment and get rewards or penalizations 
+
+[Reference](https://www.deepmind.com/publications/playing-atari-with-deep-reinforcement-learning)
 
 #### Q114. An organization that owns dozens of shopping malls want to create a machine learning product that will use facial recognition to identify customers. What is one of the main challenges with developing such a product?
 
@@ -890,4 +892,6 @@ At every iteration, full batch gradient descent uses the entire training set to 
 - [x] It might be unethical for the business to identify people without their consent.
 - [ ] Most machine learning algorithms are not designed for video.
 
-**Explanation**: there are many ethical questions about consent and privacy in machine learning algorithms [Source](https://www.nature.com/articles/d41586-020-03187-3)
+**Explanation**: there are many ethical questions about consent and privacy in machine learning algorithms.
+
+[Reference](https://www.nature.com/articles/d41586-020-03187-3)

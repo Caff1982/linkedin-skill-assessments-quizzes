@@ -135,8 +135,6 @@ echo $myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [ ] It will output the entire 10-digit number inside parentheses.
 - [x] It will output the same 10-digit number, but the first 3 digits will be inside parentheses.
 
-**Note:** check the question below for a variant of this sed expression.
-
 #### Q18. What would this sed command do?
 
 ```bash
@@ -148,9 +146,7 @@ sed -E 's/[a-Z]{4}/(&)/'  textfile.txt
 - [ ] It would replace the first four letters with an ampersand (&).
 - [x] It would place parentheses around the first four letters of each line of textfile.txt.
 
-**Note:** check the question above for a variant of this sed expression.
-
-Side note: this sed expression may fail with "sed: -e expression #1, char 15: Invalid range end" (for example on MINGW64 / Git Bash); if this is the case, you can try the alternative range `[A-z]`.
+**Explanation**: Side note: this sed expression may fail with "sed: -e expression #1, char 15: Invalid range end" (for example on MINGW64 / Git Bash); if this is the case, you can try the alternative range `[A-z]`.
 
 #### Q19. Packages can be downloaded but not installed with yum or dnf by specifying which option?
 
@@ -264,28 +260,24 @@ Side note: this sed expression may fail with "sed: -e expression #1, char 15: In
 #### Q34. Which choice will _not_ print "Hello World" in the terminal?
 
 - [ ] A
-
 ```bash
 myVar = 5
 [[ $myVar -lt 10 ]] && echo " Hello World"
 ```
 
 - [x] B
-
 ```bash
 myVar = 5
 [[ $myVar -lt 10 ]] || echo " Hello World"
 ```
 
 - [ ] C
-
 ```bash
 myVar = 5
 [[ ! $myVar -gt 10 ]] && echo " Hello World"
 ```
 
 - [ ] D
-
 ```bash
 myVar = 5
 [[ $myVar -gt 10 ]] || echo " Hello World"
@@ -427,7 +419,7 @@ find / -size -10K -exec ls -l {} \;
 
 [Reference](https://en.wikipedia.org/wiki/Nohup)
 
-> nohup is a POSIX command which means "no hang up". Its purpose is to execute a command such that it ignores the HUP (hangup) signal and therefore does not stop when the user logs out.
+**Explanation**: nohup is a POSIX command which means "no hang up". Its purpose is to execute a command such that it ignores the HUP (hangup) signal and therefore does not stop when the user logs out.
 
 #### Q53. To elevate privileges using the `sudo` command, a user must **\_**.
 
@@ -454,7 +446,7 @@ find / -size -10K -exec ls -l {} \;
 - [ ] Firewalls easily spawn commands to operate on connection data, whereas TCP Wrappers cannot.
 - [x] TCP Wrappers works at the application layer, so it can make access decisions on encrypted data.
 
-**Note:** TCP Wrapper works on Application Layer but answer is not too much confirmed.
+**Explanation**: Note: TCP Wrapper works on Application Layer but answer is not too much confirmed.
 
 #### Q56. As root, you set execute permissions for user, group, and other on a directory. Now users can do what?
 
@@ -463,7 +455,9 @@ find / -size -10K -exec ls -l {} \;
 - [ ] They can read files in it.
 - [ ] They can delete files in it.
 
-**Note:** This is correct because of the keyword "directory". More info [here](https://www.tutorialspoint.com/unix/unix-file-permission.htm).
+**Explanation**: This is correct because of the keyword "directory". See reference for more info.
+
+[Reference](https://www.tutorialspoint.com/unix/unix-file-permission.htm).
 
 #### Q57. What will this command print?
 
@@ -495,8 +489,10 @@ fi
 - [x] systemctl mask crond
 - [ ] systemctl stop crond
 
-**Note:** This is the correct answer because "mask" prohibits all kinds of activation of the unit, including manual activation.\
-[Reference](https://www.commandlinux.com/man-page/man1/systemctl.1.html): search "mask".
+**Explanation**: Note: This is the correct answer because "mask" prohibits all kinds of activation of the unit, including manual activation. See 'mask' section in the reference link.
+
+
+[Reference](https://www.commandlinux.com/man-page/man1/systemctl.1.html)
 
 #### Q60. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
 
@@ -661,7 +657,9 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] Agree to an end-user license agreement.
 - [ ] provide the --resolve option so RPM resolves all packages dependency.
 
-**[Explanation:](https://access.redhat.com/discussions/2026743)** Rpm is not meant to resolve dependencies. It checks whether required software (versions) are installed and fails when software is missing and when the wrong version of software is installed.
+**Explanation**: Rpm is not meant to resolve dependencies. It checks whether required software (versions) are installed and fails when software is missing and when the wrong version of software is installed.
+
+[Reference](https://access.redhat.com/discussions/2026743)
 
 #### Q79. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
 
@@ -763,8 +761,7 @@ cat < in.txt > out.txt
 - [ ] rpm --reinstall
 - [x] rpm2cpio
 
-1. [Reference](https://stackoverflow.com/questions/18787375/how-do-i-extract-the-contents-of-an-rpm)
-2. [Reference](https://man7.org/linux/man-pages/man8/rpm2cpio.8.html)
+[Reference](https://stackoverflow.com/questions/18787375/how-do-i-extract-the-contents-of-an-rpm)
 
 #### Q91. Which variable contains last background job process id?
 
@@ -911,3 +908,4 @@ cat < in.txt > out.txt
 - [x] `assemble` is used to build existing RAID arrays.
 - [ ] `assemble` is a synonym for `create`.
 - [ ] `assemble` is used to build new RAID arrays.
+

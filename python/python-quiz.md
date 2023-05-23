@@ -365,6 +365,8 @@ return output
 
 **Explanation** - `all()` returns true if all in the list are True, see example below
 
+**Example**
+
 ```python
 test = [True,False,False,False]
 if all(test) is True:
@@ -1635,11 +1637,11 @@ actors = ["Downey", "Holland", "Evans"]
 - [ ] `[(x,y)] for x in characters for y in actors]`
 - [x] `zip(characters, actors)`
 - [ ]
-  ```python
-  d = {}
-  for x in range(1, len(characters)):
-      d[x] = actors[x]
-  ```
+```python
+d = {}
+for x in range(1, len(characters)):
+    d[x] = actors[x]
+```
 - [ ] `{x:y for x in characters for y in actors}`
 
 #### Q125. What will this statement return?
@@ -2317,9 +2319,7 @@ employees = {
 - [ ] `employees['alice'][1] = employees['charlie'][1]`
 - [ ] `employees['alice'].salary = employees['charlie'].salary`
 
-**Explanation:** This is accessing a key in a nested dictionary inside another dictionary
-
-The command employees['alice']['salary'] = employees['charlie']['salary'] assigns the value of the 'salary' key in the dictionary of the employee 'charlie' to the 'salary' key in the dictionary of the employee 'alice'.
+**Explanation:** This is accessing a key in a nested dictionary inside another dictionary. The command employees['alice']['salary'] = employees['charlie']['salary'] assigns the value of the 'salary' key in the dictionary of the employee 'charlie' to the 'salary' key in the dictionary of the employee 'alice'.
 
 #### Q177. You are given a piece of code. Assume m and n are already defined as some positive integer value. When it completes, how many tuples will my list contain?
 
