@@ -909,13 +909,6 @@ def self.get_next_card(self):
 - [ ] `def get_max_num([57, 99, 31, 18])`
 - [ ] `call.get_max_num([57, 99, 31, 18])`
 
-#### Q73. How do you add a comment to existing Python script?
-
-- [ ] `-- This is a comment`
-- [x] `# This is a comment`
-- [ ] `/* This is a comment */`
-- [ ] `// This is a comment`
-
 [Reference](https://realpython.com/python-comments-guide/)
 
 #### Q74. What is the correct syntax for replacing the string apple in the list with the string orange?
@@ -1156,13 +1149,6 @@ np.ones([1,2,3,4,5])
 - [ ] `class Game(): pass`
 
 [reference here](https://docs.python.org/3/tutorial/classes.html)
-
-#### Q90. What is the correct syntax for calling an instance method on a class named Game?
-
-- [ ] `my_game = Game(self) self.my_game.roll_dice()`
-- [ ] `my_game = Game() self.my_game.roll_dice()`
-- [x] `my_game = Game() my_game.roll_dice()`
-- [ ] `my_game = Game(self) my_game.roll_dice(self)`
 
 #### Q91. What is the output of this code? (NumPy has been imported as np.)?
 
@@ -2263,17 +2249,6 @@ print(c)
 - [ ] `[False, False, False, True, True, True]`
 - [ ] `[[0,0], [3, 4], [5, 6]]`
 - [x] `[4 5 6]`
-
-#### Q173. What is the correct syntax for replacing the string `apple` in the list with the string `orange`?
-
-```python
-my_list = [2, 'apple', 3.5]
-```
-
-- [ ] `orange = my_list[1]`
-- [x] `my_list[1] = 'orange'`
-- [ ] `my_list['orange'] = 1`
-- [ ] `my_list[1] == orange`
 
 #### Q174. Assume m, n and p are positive integers. In the following comprehension, how many times will the function `randint` be called?
 

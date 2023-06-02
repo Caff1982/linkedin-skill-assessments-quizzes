@@ -292,15 +292,6 @@
 `Which audit procedure is most effective in testing credit sales for overstatement?`
 `Vouch a sample recorded sales from the sales journal to shipping documents.`
 
-#### Q37. What is the formal method of analysis applied by management to identify appropriate cost drivers and effects on the costs of production?
-
-- [ ] profitability analysis
-- [ ] cost-benefit analysis
-- [ ] life-cycle costing
-- [ ] activity analysis
-
-I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle costing as well.
-
 #### Q38. When independent auditors are able to maintain their actual independence, it is referred to as independence in \_\_\_\_.
 
 - [x] fact

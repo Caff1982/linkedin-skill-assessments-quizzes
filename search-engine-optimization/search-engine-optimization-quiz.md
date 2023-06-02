@@ -359,13 +359,6 @@
 - [ ] PARS
 - [ ] SEM
 
-#### Q41. Which statement is true regarding the use of social signals, such as LinkedIn shares, by Google in its ranking algorithm?
-
-- [ ] Google does not use social signals to determine rank
-- [ ] Social signals are identical to backlinks
-- [x] Social signals are used to determine topic authority
-- [ ] Social signals provide a benefit only if they have structured data markup
-
 #### Q42. A user clicks an internal link resulting in this redirect chain: `http://domain.com -> https://domain.com -> https://domain.com/`. In this example, what is being consumed unnecessarily?
 
 - [x] redirect allotment

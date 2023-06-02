@@ -231,13 +231,6 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Convert to SmartArt.
 - [ ] Convert to Picture.
 
-#### Q30. How can you reorder the levels of shapes in a SmartArt diagram?
-
-- [ ] Retype the text
-- [ ] Change the shapes from rifht to left.
-- [x] Promote or Demote the shapes
-- [ ] Move the shapes up and down.
-
 #### Q31. Why would you trim a video?
 
 - [ ] To crop the video thumbnail.
@@ -694,13 +687,6 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Use the Import slides command.
 - [ ] Use the Insert Slides command.
 - [ ] Use the Duplicate Slides command.
-
-#### Q90. Which type of shape allows you to add text that can be moved around, formatted with styles and effects, or grouped with other objects?
-
-- [ ] Screenshot
-- [x] Textbox
-- [ ] Icon
-- [ ] 3D model
 
 #### Q91. Which view allows you to select individual objects on a slide?
 

@@ -263,15 +263,6 @@ E. Perspective Warp
 - [ ] scriptlet
 - [ ] image process
 
-#### Q34. Which tool is not found in the Select and Mask workspace?
-
-- [ ] Refine Edge
-- [ ] Quick Select
-- [x] Magic Wand
-- [ ] Lasso
-
-[Reference](https://helpx.adobe.com/photoshop/using/select-mask.html#tools)
-
 #### Q35. To use blending modes with a filter, choose the `___` command.
 
 - [ ] Mix
@@ -485,13 +476,6 @@ E. Perspective Warp
 - [x] It references an image in a separate file that retains its resolutions.
 - [ ] It uses a layer mask for nondestructive editing.
 
-#### Q62. Which **Select and Mask** workspace tool allows you to select fine hairs?
-
-- [ ] Brush
-- [ ] Object Selection
-- [x] Refine Edge
-- [ ] Quick selection
-
 #### Q63. What is the difference between the Lasso tool and the Polygonal Lasso tool?
 
 - [ ] You can draw a free-form selection with the Lasso tool, but you must make Bezier curves with the Polygonal Lasso tool.
@@ -578,6 +562,8 @@ E. Perspective Warp
 - [ ] Quick Select
 - [ ] Lasso
 
+[Reference](https://helpx.adobe.com/photoshop/using/select-mask.html#tools)
+
 #### Q75. Which sets of tool has a content-aware mode ?
 
 - [ ] Perspective Corp
@@ -626,13 +612,6 @@ E. Perspective Warp
 - [x] The healing brush tool needs a source point, but the spot healing brush automatically samples pixels nearby.
 - [ ] The spot healing brush tool does not match texture, lifghting, shading or trasparency of the sampled pixels, but the healing brush tool blends texture, light, shading and trasparency of pixel nearby.
 - [ ] The healing brush tool does not match texture, lighting, shading or trasparency of the sampled pixels, but the spot healing brush tool blends texture, light, shading and trasparency of pixel nearby.
-
-#### Q82. Which tool is _not_ found in the _Select and Mask_ workspace?
-
-- [ ] Quick select
-- [ ] Magic wand
-- [ ] Lasso
-- [x] Refine Edge
 
 #### Q83. Which Select and Mask workspace tool allows you to select fine hairs?
 

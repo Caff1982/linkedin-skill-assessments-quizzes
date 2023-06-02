@@ -196,6 +196,6 @@
 
 #### Q27. What does a folder icon in the Layers panel indicate?
 
--[] a symbol
--[] a component -[x] a group
--[] a screen element
+- [] a symbol
+- [] a component -[x] a group
+- [] a screen element

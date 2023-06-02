@@ -597,13 +597,6 @@
 - [ ] Use the -drop option.
 - [ ] Drop the database manually before importing.
 
-#### Q83. To import a CSV file into MongoDB, which command should you issue?
-
-- [ ] upload
-- [ ] mongorestore
-- [ ] mongoi
-- [x] mongoimport
-
 #### Q84. A critical record must be replicated to the two other servers in the set. Which query guarantees that it is inserted as desired?
 
 - [ ] `db.inventory.insert({ prodid: "tab1122", qty : 10}, { writeConcern: { w: 2, wtimeout: 5000} })`

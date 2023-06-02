@@ -2037,7 +2037,7 @@ let total = sum(4, ...values);
 
 [Reference: Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 
-#### Q149. Which statement is applicable to the defer attribute of the HTML <script> tag?
+#### Q149. Which statement is applicable to the defer attribute of the HTML 'script' tag?
 
 - [x] defer allows the browser to continue processing the page while the script loads in the background.
 - [ ] defer causes the script to be loaded from the backup content delivery network (CDN).

@@ -469,15 +469,6 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 **Explanation:** _From official docs: [https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line](https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line)_
 
-#### Q56. Which choice is `not` a Node global object?
-
-- [ ] process
-- [x] exports
-- [ ] setTimeout
-- [ ] Buffer
-
-**Explanation:** _`exports` may appear to be global but is not (please see https://nodejs.org/api/globals.html#exports)._
-
 #### Q57. What is the correct way to pipe a readable stream and a writable stream?
 
 - [x] readableStream.pipe(writableStream)

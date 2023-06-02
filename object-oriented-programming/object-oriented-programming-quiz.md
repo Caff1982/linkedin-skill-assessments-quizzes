@@ -790,13 +790,6 @@ public class Honda extends Car{}
 - [ ] No, you will get a compilation error.
 - [x] No, a local copy will be initialized and will be lost as soon as it is out of scope.
 
-#### Q104. What is encapsulation?
-
-- [ ] defining classes by focusing on what is important for a purpose
-- [x] defining data and relevant methods together in the same class
-- [ ] making all methods private
-- [ ] using words to define classes
-
 #### Q105. object are passed by \_\_\_?
 
 - [x] value or reference, depending on the programmin language used

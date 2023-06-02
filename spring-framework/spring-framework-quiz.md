@@ -468,11 +468,11 @@ Explanation: missing `@Autowired` on `private TestService service` or on the set
 - [ ] @WebFilter; ServletContextInitializer
 - [x] @Component; FilterRegistrationBean
 
-#### Q51. What is the correct term for each definition bellow?
+#### Q51. What is the correct term for each definition below?
 
-1. A predicate that matches join points.
-2. A point during the execution of a program, such as the execution of a method or the handling of an exception.
-3. An action taken by an aspect at a particular join point.
+1 A predicate that matches join points.
+2 A point during the execution of a program, such as the execution of a method or the handling of an exception.
+3 An action taken by an aspect at a particular join point.
 
 - [ ]
   ```
@@ -839,13 +839,6 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 - [ ] @Service
 - [x] @HtmlController
 - [ ] @Controller
-
-#### Q81. Which statement is true regarding loading and instantiation of Spring factories?
-
-- [x] During startup, the SpringFactoriesLoader gets a list of configs and collects all the files in META-INF directory from dependencies. Then it builds a composite list for application context configurations.
-- [ ] During shutdown, the SpringFactoryDestructor collects all the files in META-INF directory from each dependency and begins shutting down each thread and process.
-- [ ] During startup, the SpringFactoryInitializr collects all files in the CONFIG-INF directory from each dependency and downloads binaries to run each file.
-- [ ] During startup and shutdown, the SpringFactoryInitializr downloads project configs for all configured dependencies.
 
 #### Q83. What is a transaction isolation level?
 

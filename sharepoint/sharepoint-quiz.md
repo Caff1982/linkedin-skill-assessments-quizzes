@@ -443,13 +443,6 @@
 - [ ] SQL Server
 - [ ] Open Data
 
-#### Q56. What is the easiest way to assign permissions to multiple SharePoint sites for multiple users?
-
-- [ ] By Users
-- [ ] By Groups
-- [ ] By site levels
-- [ ] By sites
-
 #### Q57. What information is required to view a secondary team calendar as an overlay with a primary team calendar?
 
 - [ ] team permissions

@@ -256,13 +256,6 @@
 - [x] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
 - [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
 
-#### Q43. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
-
-- [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
-- [ ] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
-- [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
-- [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
-
 #### Q37. You are trying to find all instances of "medicine" in a scientific PDF document. Although you can clearly see the word on at least one page, a search returns no results. What might cause this?
 
 - [ ] The text is redacted.

@@ -1185,10 +1185,10 @@ func main() {
 
 #### Q63. Fill in the blanks
 
-1.  Test files in Go must **\_**.
-2.  Individual tests are identified by **\_**.
-3.  You can run subtests by **\_\_**.
-4.  You log the error and mark the test failed by **\_**.
+1  Test files in Go must **\_**.
+2  Individual tests are identified by **\_**.
+3  You can run subtests by **\_\_**.
+4  You log the error and mark the test failed by **\_**.
 
 - [ ] be stored in a `/test/`subdirectory of that package
       <br/>functions accepting a `testing.Tester` parameter

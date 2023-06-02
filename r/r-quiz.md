@@ -515,10 +515,6 @@ Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480
 - [ ] single
 - [x] double
 
-#### Q50. A list named `a` is created using the statement below. Which choice returns TRUE?
-
-`a <- list("10", TRUE, 5.6)`
-
 - [x] is.list(a[1])
 - [ ] is.numeric(a[1])
 - [ ] is.logical(a[1])

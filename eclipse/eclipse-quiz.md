@@ -28,13 +28,6 @@
 - [ ] Click Source -> Snippets -> Create Snippet
 - [ ] With the code selected, click the + button in the Snippets view
 
-#### Q5. In this image, what does the circled button do?
-
-- [ ] It expands the comparison between the two files to include whitespace.
-- [ ] It allows you to delete the line of code to which it is connected.
-- [x] It allows changes from one version of a file to be applied to another version of the file.
-- [ ] It allows you to merge both lines of code together.
-
 #### Q6. When inserting a snippet containing variables into a source file, how are values for the variable defined?
 
 - [ ] Eclipse fills them in with a drop-down menu of available optons.

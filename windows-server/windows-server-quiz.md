@@ -412,15 +412,6 @@
 
 [reference](https://medium.com/tech-jobs-academy/dns-forwarding-and-conditional-forwarding-f3118bc93984)
 
-#### Q56. You have installed the Remote Desktop Services role. Which remote desktop mode comes with two built-in licenses?
-
-- [x] RDA Administration Mode
-- [ ] RDS Session Mode
-- [ ] RDS User Mode
-- [ ] RDA Application Mode
-
-[reference](https://www.dell.com/support/kbdoc/en-si/000136576/windows-server-an-overview-of-windows-remote-desktop-services-licensing)
-
 #### Q57. In a two-tier hierarchy CA design, what is a common security best practice?
 
 - [ ] The issuing CA servers are placed in different geographical locations.

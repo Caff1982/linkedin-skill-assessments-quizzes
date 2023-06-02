@@ -173,9 +173,7 @@
 - [ ] STRIDE
 - [ ] MITRE ATT&CK
 
-#### Q24. You organization is conducting a pilot deployment of a new e-commerce application being considered for purchase. You need to recommend a strategy to evaluate the security of the new software. Your organization does not have access to the application's source code.
-
-#### Which strategy should you choose?
+#### Q24. You organization is conducting a pilot deployment of a new e-commerce application being considered for purchase. You need to recommend a strategy to evaluate the security of the new software. Your organization does not have access to the application's source code. Which strategy should you choose?
 
 - [x] dynamic application security testing
 - [ ] unit testing

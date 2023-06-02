@@ -594,13 +594,6 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 - [ ] the processor, RAM, and expansion cards
 - [ ] I/O components are not on the motherboard. They are located on the rear of the case
 
-#### Q72. What does the acronym RAID refer to?
-
-- [x] Redudant Array of Independent Disk
-- [ ] Repeating Architecture for Internal Drives
-- [ ] Recoverable Advanced Integration and Duplication
-- [ ] Replicated Array of Internal Devices
-
 #### Q73. What is an example of a top-level domain (TLD)?
 
 - [x] NET

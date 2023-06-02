@@ -1,11 +1,5 @@
 ## Ruby on Rails
 
-#### Q1. When rendering a partial in a view, how would you pass local variables for rendering?
-
-- [ ] `<%= render partial: "nav", selected: "about"}%>`
-- [ ] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
-- [x] `<%= render partial: "nav", locals: {selected: "about"}`
-
 #### Q2. Within a Rails controller, which code will prevent the parent controller's before_action `:get_feature` from running?
 
 - [x] `skip_before_action :get_feature`
@@ -817,13 +811,6 @@ raise ActiveRecord::RecordNotFound
 end
 ```
 
-#### Q59. What decides which controller receives which requests?
-
-- [ ] model
-- [ ] view
-- [ ] web server
-- [x] router
-
 #### Q60. When rendering a partial in a view, how would you pass local variables for rendering?
 
 - [ ] `<%= render partial: "nav", globals: {selected: "about"} %>`
@@ -874,13 +861,6 @@ end
 - [ ] utility
 - [ ] controller
 - [ ] formatter
-
-#### Q65. How do you add Ruby code inside Rails views and have its result outputted in the HTML file?
-
-- [ ] Insert Ruby code inside standard HTML files and surround it with `<% %>`. The web server will handle the rest.
-- [ ] Create an embedded Ruby file `(.html.erb)` and surround the Ruby code with `<% %>`
-- [ ] Put the code in `an.rb. file` and include it in a `<link>` tag of an HTML file.
-- [x] Create an embedded Ruby file `(.html.erb)` and surround the Ruby code with `<%= %>`.
 
 #### Q66.You are working with a large database of portfolios that sometimes have an associated image. Which statement best explains the purpose of includes(:image) in this code?
 

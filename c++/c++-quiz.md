@@ -758,8 +758,6 @@ std::vector<std::vector<int>> thematrix;
 
 #### Q42. What is the statement below equivalent to?
 
-#### Q42.b. What is the statement equivalent to?
-
 ```cpp
 sprite->x
 ```
@@ -1566,7 +1564,10 @@ X+=a;
 
 #### Q100. Which choice is not a C++ keyword?
 
--[ ] static_assert -[ ] reinterpret_cast -[x] comPl -[ ] alignas
+- [ ] static_assert
+- [ ] reinterpret_cast
+- [x] comPl
+- [ ] alignas
 
 #### Q101. The size_in_bits function seems to take any type of parameter. This can be done by overloading the function, or by letting the compiler take care of it by writing a template. Which choice is an implementation of that template?
 
@@ -1581,7 +1582,7 @@ return 0;
 }
 ```
 
--[X] A
+- [X] A
 
 ```cpp
 template <typename T>
@@ -1590,7 +1591,7 @@ return sizeof(a)*8;
 }
 ```
 
--[ ] B
+- [ ] B
 
 ```cpp
 template size_t size_in_bits(const {int,float,double,char,long}& a){
@@ -1598,7 +1599,7 @@ return sizeof(a)*8;
 }
 ```
 
--[x] C
+- [x] C
 
 ```cpp
 template <typename T {int,float,double,char,long>
@@ -1607,7 +1608,7 @@ return sizeof(a)*8;
 }
 ```
 
--[ ] D
+- [ ] D
 
 ```cpp
 size_t size_in_bits(void * a){
@@ -1617,4 +1618,7 @@ return sizeof(a)*8;
 
 #### Q102. To use the keyboard as input the iostream library is included. To read input from files as input what library is needed?
 
--[X] fstream -[ ] cstdlib -[ ] filestream -[ ] iostream
+- [X] fstream
+- [ ] cstdlib
+- [ ] filestream
+- [ ] iostream

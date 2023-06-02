@@ -219,13 +219,6 @@
 - [ ] Drag the page 3 icon over master page B
 - [ ] master page B is already applied
 
-#### 30. Suppose you place text in a frame, but the text is too close to the frame edge. What feature will help you adjust this?
-
-- [x] Type > Insert White Space
-- [ ] Window > Text Wrap
-- [ ] Object > Arrange
-- [ ] Object > Text Frame Options
-
 #### 31. You are creating a flyer to be printed, and you want the background color to extend past the edge of the page. Which setting in the New Document dialog box will help you accomplush this??
 
 - [ ] Slug guides
